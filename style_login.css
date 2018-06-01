@@ -1,0 +1,78 @@
+body{
+  background-color: #f5deb3;
+
+}
+.rainbow {
+ background: #C94A4A; /* For browsers that do not support gradients */
+ background: -webkit-linear-gradient(left, #C94A4A, #F78154, #F2C14E, #5FAD56, #4D9078); /* For Safari 5.1 to 6.0 */
+ background: -o-linear-gradient(left, #C94A4A, #F78154, #F2C14E, #5FAD56, #4D9078); /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(left, #C94A4A, #F78154, #F2C14E, #5FAD56, #4D9078); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(left, #C94A4A, #F78154, #F2C14E, #5FAD56, #4D9078); /* Standard syntax */
+}
+.radial-gradient {
+ background: #4CCEB2; /* For browsers that do not support gradients */
+ background: -webkit-radial-gradient(#4CCEB2, #2F8FD8); /* Safari 5.1 to 6.0 */
+ background: -o-radial-gradient(#4CCEB2, #2F8FD8); /* For Opera 11.6 to 12.0 */
+ background: -moz-radial-gradient(#4CCEB2, #2F8FD8); /* For Firefox 3.6 to 15 */
+ background: radial-gradient(#4CCEB2, #2F8FD8); /* Standard syntax */
+}
+.heading2 {
+z-index:25;
+position:relative;
+top:0px;
+height:10%;
+width:100%;
+padding-top:5px;
+text-align:center;
+background-color:#008080;
+color:#B4EEB4;
+font-size:30px;
+text-transform:capitalize;
+font-family:Bevan;/*'Abril Fatface','cursive';*/
+}
+.box {
+  position:relative;
+  top:0px;
+  background-color:#F0FFFF;
+  width:80%;
+  border:2px double yellow;
+  height:500px;
+}
+span{
+  color:red;
+  font-family:Amaranth;
+
+}
+table {
+  width:100%;
+  position:absolute;
+  top:20px;
+}
+table td:first-child{
+  font-size:20px;
+  text-align:center;
+  color:#000080;
+  width:30%;
+  font-family:Bevan;
+}
+
+table td:last-child input{
+  width:50%;
+}
+p {
+  text-align:center;
+  color:black;
+  font-size:20px;
+  font-family: Amaranth;
+}
+#submit {
+  position:absolute;
+  bottom: 10px;
+  left:30%;
+  background-color:white;
+  color:#36648b;
+  border:2px solid #36648b;
+  width:100px;
+
+  height:50px;
+}
